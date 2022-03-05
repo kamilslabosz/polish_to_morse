@@ -31,15 +31,6 @@ def to_morse(text):
 
     return morse_code
 
-
-# def to_polish(text):
-#     message = ""
-#     for item in text:
-#         message += list(MORSE_CODE_DICT.keys())[list(MORSE_CODE_DICT.values()).index(item)]
-#
-#     return message
-
-
 text = input("Podaj wiadomość do zakodowania: ")
 coded = to_morse(text=text)
 for letter in coded:
