@@ -31,6 +31,7 @@ def to_morse(text):
 
     return morse_code
 
+
 text = input("Podaj wiadomość do zakodowania: ")
 coded = to_morse(text=text)
 for letter in coded:
